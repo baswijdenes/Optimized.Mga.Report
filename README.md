@@ -9,5 +9,5 @@ Optimized.Mga.Mail is dependant on Optimized.Mga
 
 ## How can I interpret the cmdlets?
 You can paste the title where the first UPPERCASE starts after `Get-MgaReport`.  
-When we use (reportRoot: getMailboxUsageDetail)[https://docs.microsoft.com/en-us/graph/api/reportroot-getmailboxusagedetail?view=graph-rest-1.0] as an example, the cmdlet would be: `Get-MgaReportMailboxUsageDetail`.  
+When we use [reportRoot: getMailboxUsageDetail](https://docs.microsoft.com/en-us/graph/api/reportroot-getmailboxusagedetail?view=graph-rest-1.0) as an example, the cmdlet would be: `Get-MgaReportMailboxUsageDetail`.  
 This cmdlet will return the content as a PSCustomObject.
