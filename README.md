@@ -11,3 +11,6 @@ Optimized.Mga.Mail is dependant on Optimized.Mga
 You can paste the title where the first UPPERCASE starts after `Get-MgaReport`.  
 When we use [reportRoot: getMailboxUsageDetail](https://docs.microsoft.com/en-us/graph/api/reportroot-getmailboxusagedetail?view=graph-rest-1.0) as an example, the cmdlet would be: `Get-MgaReportMailboxUsageDetail`.  
 This cmdlet will return the content as a PSCustomObject.
+
+## Blog posts regarding module
+- [New PowerShell module for Microsoft Graph API reports](https://baswijdenes.com/new-powershell-module-for-microsoft-graph-api-reports/)
