@@ -112,7 +112,7 @@ function Get-MgaReportTeamsDeviceUsageUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsDeviceUsageUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsDeviceUsageUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsDeviceUsageUserDetail: begin: URL: $URL"
@@ -152,7 +152,7 @@ function Get-MgaReportTeamsDeviceUsageUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsDeviceUsageUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsDeviceUsageUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsDeviceUsageUserCounts: begin: URL: $URL"
@@ -187,7 +187,7 @@ function Get-MgaReportTeamsDeviceUsageDistributionUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsDeviceUsageDistributionUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsDeviceUsageDistributionUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsDeviceUsageDistributionUserCounts: begin: URL: $URL"
@@ -222,7 +222,7 @@ function Get-MgaReportTeamsUserActivityUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsUserActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsUserActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsUserActivityUserDetail: begin: URL: $URL"
@@ -264,7 +264,7 @@ function Get-MgaReportTeamsUserActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsUserActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsUserActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsUserActivityCounts: begin: URL: $URL"
@@ -297,7 +297,7 @@ function Get-MgaReportTeamsUserActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportTeamsUserActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getTeamsUserActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportTeamsUserActivityUserCounts: begin: URL: $URL"
@@ -332,7 +332,7 @@ function Get-MgaReportEmailActivityUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailActivityUserDetail: begin: URL: $URL"
@@ -373,7 +373,7 @@ function Get-MgaReportEmailActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailActivityCounts: begin: URL: $URL"
@@ -405,7 +405,7 @@ function Get-MgaReportEmailActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailActivityUserCounts: begin: URL: $URL"
@@ -438,7 +438,7 @@ function Get-MgaReportEmailAppUsageUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailAppUsageUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailAppUsageUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailAppUsageUserDetail: begin: URL: $URL"
@@ -482,7 +482,7 @@ function Get-MgaReportEmailAppUsageAppsUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailAppUsageAppsUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailAppUsageAppsUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailAppUsageAppsUserCounts: begin: URL: $URL"
@@ -519,7 +519,7 @@ function Get-MgaReportEmailAppUsageUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailAppUsageUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailAppUsageUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailAppUsageUserCounts: begin: URL: $URL"
@@ -557,7 +557,7 @@ function Get-MgaReportEmailAppUsageVersionsUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportEmailAppUsageVersionsUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getEmailAppUsageVersionsUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportEmailAppUsageVersionsUserCounts: begin: URL: $URL"
@@ -593,7 +593,7 @@ function Get-MgaReportMailboxUsageDetail {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportMailboxUsageDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getMailboxUsageDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportMailboxUsageDetail: begin: URL: $URL"
@@ -638,7 +638,7 @@ function Get-MgaReportMailboxUsageMailboxCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportMailboxUsageMailboxCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getMailboxUsageMailboxCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportMailboxUsageMailboxCounts: begin: URL: $URL"
@@ -669,7 +669,7 @@ function Get-MgaReportMailboxUsageQuotaStatusMailboxCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportMailboxUsageQuotaStatusMailboxCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getMailboxUsageQuotaStatusMailboxCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportMailboxUsageQuotaStatusMailboxCounts: begin: URL: $URL"
@@ -703,7 +703,7 @@ function Get-MgaReportMailboxUsageStorage {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportMailboxUsageStorage: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getMailboxUsageStorage(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportMailboxUsageStorage: begin: URL: $URL"
@@ -732,7 +732,7 @@ function Get-MgaReportOffice365ActivationsUserDetail {
     param (
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365ActivationsUserDetail" 
         Write-Verbose "Get-MgaReportOffice365ActivationsUserDetail: begin: URL: $URL"
         $ReportsList = [System.Collections.Generic.List[Object]]::new()
@@ -767,7 +767,7 @@ function Get-MgaReportOffice365ActivationCounts {
     param (
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365ActivationCounts" 
         Write-Verbose "Get-MgaReportOffice365ActivationCounts: begin: URL: $URL"
         $ReportsList = [System.Collections.Generic.List[Object]]::new()
@@ -798,7 +798,7 @@ function Get-MgaReportOffice365ActivationsUserCounts {
     param (
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365ActivationsUserCounts" 
         Write-Verbose "Get-MgaReportOffice365ActivationsUserCounts: begin: URL: $URL"
         $ReportsList = [System.Collections.Generic.List[Object]]::new()
@@ -830,7 +830,7 @@ function Get-MgaReportOffice365GroupsActivityDetail {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOffice365GroupsActivityDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOffice365GroupsActivityDetail: begin: URL: $URL"
@@ -875,7 +875,7 @@ function Get-MgaReportOffice365GroupsActivityCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOffice365GroupsActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOffice365GroupsActivityCounts: begin: URL: $URL"
@@ -908,7 +908,7 @@ function Get-MgaReportOffice365GroupsActivityGroupCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOffice365GroupsActivityGroupCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityGroupCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOffice365GroupsActivityGroupCounts: begin: URL: $URL"
@@ -939,7 +939,7 @@ function Get-MgaReportOffice365GroupsActivityStorage {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOffice365GroupsActivityStorage: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityStorage(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOffice365GroupsActivityStorage: begin: URL: $URL"
@@ -970,7 +970,7 @@ function Get-MgaReportOffice365GroupsActivityFileCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOffice365GroupsActivityFileCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOffice365GroupsActivityFileCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOffice365GroupsActivityFileCounts: begin: URL: $URL"
@@ -1002,7 +1002,7 @@ function Get-MgaReportOneDriveActivityUserDetail {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveActivityUserDetail: begin: URL: $URL"
@@ -1043,7 +1043,7 @@ function Get-MgaReportOneDriveActivityUserCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveActivityUserCounts: begin: URL: $URL"
@@ -1076,7 +1076,7 @@ function Get-MgaReportOneDriveActivityFileCounts {
         $Period = '7'
     )  
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveActivityFileCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveActivityFileCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveActivityFileCounts: begin: URL: $URL"
@@ -1110,7 +1110,7 @@ function Get-MgaReportOneDriveUsageAccountDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveUsageAccountDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveUsageAccountDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveUsageAccountDetail: begin: URL: $URL"
@@ -1152,7 +1152,7 @@ function Get-MgaReportOneDriveUsageAccountCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveUsageAccountCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveUsageAccountCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveUsageAccountCounts: begin: URL: $URL"
@@ -1184,7 +1184,7 @@ function Get-MgaReportOneDriveUsageFileCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveUsageFileCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveUsageFileCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveUsageFileCounts: begin: URL: $URL"
@@ -1216,7 +1216,7 @@ function Get-MgaReportOneDriveUsageStorage {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportOneDriveUsageStorage: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getOneDriveUsageStorage(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportOneDriveUsageStorage: begin: URL: $URL"
@@ -1248,7 +1248,7 @@ function Get-MgaReportSharePointActivityUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointActivityUserDetail: begin: URL: $URL"
@@ -1289,7 +1289,7 @@ function Get-MgaReportSharePointActivityFileCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointActivityFileCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointActivityFileCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointActivityFileCounts: begin: URL: $URL"
@@ -1322,7 +1322,7 @@ function Get-MgaReportSharePointActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointActivityUserCounts: begin: URL: $URL"
@@ -1356,7 +1356,7 @@ function Get-MgaReportSharePointActivityPages {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointActivityPages: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointActivityPages(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointActivityPages: begin: URL: $URL"
@@ -1387,7 +1387,7 @@ function Get-MgaReportSharePointSiteUsageDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointSiteUsageDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointSiteUsageDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointSiteUsageDetail: begin: URL: $URL"
@@ -1433,7 +1433,7 @@ function Get-MgaReportSharePointSiteUsageFileCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointSiteUsageFileCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointSiteUsageFileCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointSiteUsageFileCounts: begin: URL: $URL"
@@ -1465,7 +1465,7 @@ function Get-MgaReportSharePointSiteUsageSiteCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointSiteUsageSiteCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointSiteUsageSiteCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointSiteUsageSiteCounts: begin: URL: $URL"
@@ -1497,7 +1497,7 @@ function Get-MgaReportSharePointSiteUsageStorage {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointSiteUsageStorage: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointSiteUsageStorage(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointSiteUsageStorage: begin: URL: $URL"
@@ -1528,7 +1528,7 @@ function Get-MgaReportSharePointSiteUsagePages {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSharePointSiteUsagePages: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSharePointSiteUsagePages(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSharePointSiteUsagePages: begin: URL: $URL"
@@ -1560,7 +1560,7 @@ function Get-MgaReportSkypeForBusinessActivityUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityUserDetail: begin: URL: $URL"
@@ -1625,7 +1625,7 @@ function Get-MgaReportSkypeForBusinessActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityCounts: begin: URL: $URL"
@@ -1657,7 +1657,7 @@ function Get-MgaReportSkypeForBusinessActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessActivityUserCounts: begin: URL: $URL"
@@ -1690,7 +1690,7 @@ function Get-MgaReportSkypeForBusinessDeviceUsageUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessDeviceUsageUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageUserDetail: begin: URL: $URL"
@@ -1725,7 +1725,7 @@ function Get-MgaReportSkypeForBusinessDeviceUsageDistributionUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageDistributionUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessDeviceUsageDistributionUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageDistributionUserCounts: begin: URL: $URL"
@@ -1758,7 +1758,7 @@ function Get-MgaReportSkypeForBusinessDeviceUsageUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessDeviceUsageUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessDeviceUsageUserCounts: begin: URL: $URL"
@@ -1793,7 +1793,7 @@ function Get-MgaReportSkypeForBusinessOrganizerActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessOrganizerActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityCounts: begin: URL: $URL"
@@ -1828,7 +1828,7 @@ function Get-MgaReportSkypeForBusinessOrganizerActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessOrganizerActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityUserCounts: begin: URL: $URL"
@@ -1863,7 +1863,7 @@ function Get-MgaReportSkypeForBusinessOrganizerActivityMinuteCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityMinuteCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessOrganizerActivityMinuteCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessOrganizerActivityMinuteCounts: begin: URL: $URL"
@@ -1896,7 +1896,7 @@ function Get-MgaReportSkypeForBusinessParticipantActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessParticipantActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityCounts: begin: URL: $URL"
@@ -1930,7 +1930,7 @@ function Get-MgaReportSkypeForBusinessParticipantActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessParticipantActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityUserCounts: begin: URL: $URL"
@@ -1964,7 +1964,7 @@ function Get-MgaReportSkypeForBusinessParticipantActivityMinuteCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityMinuteCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessParticipantActivityMinuteCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessParticipantActivityMinuteCounts: begin: URL: $URL"
@@ -1995,7 +1995,7 @@ function Get-MgaReportSkypeForBusinessPeerToPeerActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessPeerToPeerActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityCounts: begin: URL: $URL"
@@ -2029,7 +2029,7 @@ function Get-MgaReportSkypeForBusinessPeerToPeerActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessPeerToPeerActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityUserCounts: begin: URL: $URL"
@@ -2063,7 +2063,7 @@ function Get-MgaReportSkypeForBusinessPeerToPeerActivityMinuteCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityMinuteCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getSkypeForBusinessPeerToPeerActivityMinuteCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportSkypeForBusinessPeerToPeerActivityMinuteCounts: begin: URL: $URL"
@@ -2095,7 +2095,7 @@ function Get-MgaReportYammerActivityUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerActivityUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerActivityUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerActivityUserDetail: begin: URL: $URL"
@@ -2134,7 +2134,7 @@ function Get-MgaReportYammerActivityCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerActivityCounts: begin: URL: $URL"
@@ -2166,7 +2166,7 @@ function Get-MgaReportYammerActivityUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerActivityUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerActivityUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerActivityUserCounts: begin: URL: $URL"
@@ -2199,7 +2199,7 @@ function Get-MgaReportYammerDeviceUsageUserDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerDeviceUsageUserDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerDeviceUsageUserDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerDeviceUsageUserDetail: begin: URL: $URL"
@@ -2238,7 +2238,7 @@ function Get-MgaReportYammerDeviceUsageDistributionUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerDeviceUsageDistributionUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerDeviceUsageDistributionUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerDeviceUsageDistributionUserCounts: begin: URL: $URL"
@@ -2272,7 +2272,7 @@ function Get-MgaReportYammerDeviceUsageUserCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerDeviceUsageUserCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerDeviceUsageUserCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerDeviceUsageUserCounts: begin: URL: $URL"
@@ -2308,7 +2308,7 @@ function Get-MgaReportYammerGroupsActivityDetail {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerGroupsActivityDetail: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerGroupsActivityDetail(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerGroupsActivityDetail: begin: URL: $URL"
@@ -2346,7 +2346,7 @@ function Get-MgaReportYammerGroupsActivityGroupCounts {
         $Period = '7'
     )
        begin {
-             $null = Test-MgaRole -RoleType 'O365'
+             
         Write-Verbose "Get-MgaReportYammerGroupsActivityGroupCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerGroupsActivityGroupCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerGroupsActivityGroupCounts: begin: URL: $URL"
@@ -2377,7 +2377,7 @@ function Get-MgaReportYammerGroupsActivityCounts {
         $Period = '7'
     )
     begin {
-        $null = Test-MgaRole -RoleType 'O365'
+        
         Write-Verbose "Get-MgaReportYammerGroupsActivityCounts: begin: Period: D$Period"
         $URL = "https://graph.microsoft.com/v1.0/reports/getYammerGroupsActivityCounts(period='D{0}')" -f $Period
         Write-Verbose "Get-MgaReportYammerGroupsActivityCounts: begin: URL: $URL"
@@ -2404,67 +2404,3 @@ function Get-MgaReportYammerGroupsActivityCounts {
 #endregion Yammer groups activity
 #endregion 365 usage reports
 #endregion functions
-#region internal functions
-function Test-MgaRole {
-    [CmdletBinding()]
-    param (
-        [parameter(mandatory = $true)]
-        [ValidateSet('O365', 'AzureAD')]
-        $RoleType
-    )   
-    begin {
-        $SufficientPermissions = $false
-        if ((($RoleType -eq 'AzureAD') -and ($global:MgaReportRoleAzureAD -eq $true)) -or (($RoleType -eq 'O365') -and ($global:MgaReportRoleO365 -eq $true))) {
-            $SufficientPermissions = $true
-        }
-    }
-    process {
-        if ($SufficientPermissions -ne $true) {
-            $Roles = Show-MgaAccessToken -Roles
-            if ($RoleType -eq 'O365') {
-                $ReportsLog = $false
-                foreach ($Role in $Roles) {
-                    if ($Role -eq 'Reports.Read.All') {
-                        $ReportsLog = $true
-                    }
-                }
-                if ($ReportsLog -eq $true) {
-                    $global:MgaReportRoleO365 = $true
-                }
-                else {
-                    throw "Missing Reports.Read.All permission for Microsoft Graph API to call Reports for $RoleType"
-                }
-            }
-            elseif ($RoleType -eq 'AzureAD') {
-                $AuditLog = $false
-                $DirectoryLog = $false
-                foreach ($Role in $Roles) {
-                    if ($Role -eq 'AuditLog.Read.All') {
-                        $AuditLog = $true
-                    }
-                    elseif (($Role -eq 'Directory.ReadWrite.All') -or ($Role -eq 'Directory.Read.All')) {
-                        $DirectoryLog = $true
-                    }
-                }
-                if (($AuditLog -eq $true) -and ($DirectoryLog -eq $true)) {
-                    $global:MgaReportRoleAzureAD = $true
-                }
-                elseif (($AuditLog -eq $false) -and ($DirectoryLog -eq $false)) {
-                    throw  "Missing AuditLog.Read.All and Directory.ReadWrite.All or Directory.Read.All permission for Microsoft Graph API to call Reports for $RoleType"
-                }
-                elseif (($AuditLog -eq $true) -and ($DirectoryLog -eq $false)) {
-                    throw  "Missing Directory.ReadWrite.All or Directory.Read.All permission for Microsoft Graph API to call Reports for $RoleType"
-                }
-                elseif (($AuditLog -eq $false) -and ($DirectoryLog -eq $true)) {
-                    throw  "Missing AuditLog.Read.All permission for Microsoft Graph API to call Reports for $RoleType"
-                }
-            }
-        }
-    }  
-    end {
-        if ((($RoleType -eq 'AzureAD') -and ($global:MgaReportRoleAzureAD -eq $true)) -or (($RoleType -eq 'O365') -and ($global:MgaReportRoleO365 -eq $true))) {
-            return "Sufficient roles found for $RoleType reports"
-        }
-    }
-}
-#endregion internal functions
